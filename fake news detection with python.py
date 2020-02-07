@@ -12,6 +12,20 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
+from nltk import WordNetLemmatizer
+import string
+from textblob import TextBlob
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+%matplotlib inline
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.decomposition import LatentDirichletAllocation
+from sklearn.feature_extraction.text import CountVectorizer
+import random
 
 
 # In[2]:
