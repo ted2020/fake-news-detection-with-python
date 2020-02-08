@@ -13,7 +13,7 @@
  ##### lemmitization
  ##### ngrams
  ##### wordcloud
- ##### sentiment analysis
+ ##### sentiment analysis - I used the app I created for this, so code is not here...
  ##### vectorize - tfidf - %93 accuracy
  ##### naive bayes classifier - %84 accuracy
  ##### SVM - support vector machine - %93 accuracy
