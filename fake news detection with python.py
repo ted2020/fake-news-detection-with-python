@@ -26,6 +26,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 import random
+from sklearn import model_selection, naive_bayes, svm
+from sklearn.metrics import accuracy_score
 
 
 # In[2]:
