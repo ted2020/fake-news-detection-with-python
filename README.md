@@ -14,8 +14,9 @@
  ##### ngrams
  ##### wordcloud
  ##### sentiment analysis
- ##### vectorize - tfidf
- ##### naive bayes classifier
+ ##### vectorize - tfidf - %93 accuracy
+ ##### naive bayes classifier - %84 accuracy
+ ##### SVM - support vector machine - %93 accuracy
  ##### topic modeling - Latent Dirichlet Allocation or LDA
  ##### bag of words
  ##### lda and bag of words
