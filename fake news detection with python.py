@@ -272,6 +272,14 @@ print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, y_test)*10
 
 # In[ ]:
 
+# Classifier - Algorithm - SVM
+# fit the training dataset on the classifier
+SVM = svm.SVC(C=1.0, kernel='linear', degree=3, gamma='auto')
+SVM.fit(tfidf_train,y_train)
+# predict the labels on validation dataset
+predictions_SVM = SVM.predict(tfidf_test)
+# Use accuracy_score function to get the accuracy
+print("SVM Accuracy Score -> ",accuracy_score(predictions_SVM, y_test)*100)
 
 
 
