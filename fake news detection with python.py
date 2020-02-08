@@ -260,6 +260,14 @@ confusion_matrix(y_test,y_pred, labels=['fake','real'])
 
 
 # naive bayes classifier
+# fit the training dataset on the NB classifier
+# from sklearn.naive_bayes import MultinomialNB
+Naive = MultinomialNB()
+Naive.fit(tfidf_train,y_train)
+# predict the labels on validation dataset
+predictions_NB = Naive.predict(tfidf_test)
+# Use accuracy_score function to get the accuracy
+print("Naive Bayes Accuracy Score -> ",accuracy_score(predictions_NB, y_test)*100)
 
 
 # In[ ]:
